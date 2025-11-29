@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="">
+    <link rel="stylesheet" href="style.css">
+    <title>Intro component</title>
+  </head>
+  <body>
+    
+    <div class="content">
+
+        <div class="left-content">
+            <h1 class="left-big-text">Learn to code by<br>watching others</h1>
+            <p class="left-small-text">
+            See how experienced developers solve problems in real-time.<br>
+            Watching scripted tutorials is great but understanding how<br>
+            developers think is invaluable.
+            </p>
+        </div>
+
+        <div class="right-content">
+
+            <div class="try-free">
+                <p class="try-free-first">Try it free 7 days&nbsp;</p>
+                <p class="try-free-sec">then $20/mo. thereafter</p>
+            </div>
+
+            <div class="main-form">
+
+                <form action="http://localhost:8080/submit" method="post" class="form" id="add-form">
+
+                    <div class="first-name">
+                        <input type="text" id="firstNameInput" name="username" placeholder="First Name" required />
+                    </div>
+
+                    <div class="last-name">
+                        <input type="text" id="lastNameInput" name="lastName" placeholder="Last Name" required />
+                    </div>
+
+                    <div class="email-address">
+                        <input type="text" id="emailAddressInput" name="email" placeholder="Email Address" required />
+                    </div>
+
+                    <div class="password">
+                        <input type="text" id="passwordInput" name="password" placeholder="Password" required />
+                    </div>
+
+                    <div class="claim-free">
+                        <button type="submit" class="button-claim">CLAIM YOUR FREE TRIAL</button>
+                    </div>
+                    
+                    <div class="terms-and-services">
+                        <p class="terms-text">By clicking the button you are agreeing to our
+                            <a class="terms-button" href="" target="_blank">Terms and Services</a> 
+                        </p>
+                    </div>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+
+  </body>
+</html>
